@@ -102,7 +102,7 @@ Master Volume=Fő hangerő
 Dialogue=Párbeszéd  
 Interface=Felület  
 SFX=Hangeffektek  
-Hold=Tartás  
+Hold=Tartsd lenyomva 
 Tab=Tab  
 Shift=Shift  
 Exclusive Fullscreen=Exkluzív teljes képernyő  
@@ -616,6 +616,7 @@ Sauerkraut\nSupreme=Savanyúkáposzta\nSupreme
 UNLOCK ONE OF LUDWIG'S CONNECTIONS FIRST=Fel kell oldanod Ludwig egyik kapcsolatát először  
 REACH 'FRIENDLY' WITH ONE OF BENJI'S CONNECTIONS=Legyél 'barátságos' Benji egyik kapcsolatával  
 REACH 'FRIENDLY' WITH ONE OF MOLLY'S CONNECTIONS=Legyél 'barátságos' Molly egyik kapcsolatával  
+REACH 'FRIENDLY' WITH ONE OF WEI'S CONNECTIONS=Legyél 'barátságos' WEI egyik kapcsolatával  
 UNLOCK ONE OF JERRY'S CONNECTIONS FIRST=Először oldd fel Jerry egyik kapcsolatát  
 UNLOCK ONE OF GEORGE'S CONNECTIONS FIRST=Először oldd fel George egyik kapcsolatát  
 'DOWNTOWN' REGION MUST BE UNLOCKED='DOWNTOWN' régiónak fel kell lennie oldva  
@@ -1035,7 +1036,8 @@ r:Click and hold over buds to harvest (.*)\/(.*)=Kattints és tartsd lenyomva a 
 A=A
 D=D
 E=E
-sr:"Drag product + packaging into slots"=<size=10>Húzza a terméket + csomagolást a helyekre</size>
+sr:"Drag product + packaging into slots"=Húzza a terméket + csomagolást a megfelelő helyre
+Drag product + packaging into slots=Húzza a terméket + csomagolást a megfelelő helyre
 
 PACK=Csomagolás
 Package all the weed at the packaging station=Csomagolja be az összes füvet a csomagolóállomáson
@@ -1107,6 +1109,7 @@ Inventory full=A készlet tele van
 (Hold) Dump Contents=(Tartás) Tartalom kiürítése
 The deal is off. This is not what I wanted.=Az üzletnek vége. Ez nem az, amit akartam.
 Nope man=Nem, ember
+Nope=Nem kell.
 r:Pick up \$(\d{1,3}(?:,\d{3})*)=$1 felvenni
 Pick up Cuke=Vedd fel a Cuke-t
 Oh no!=Ó, nem!
@@ -1675,7 +1678,7 @@ Go to the hardware store=Menj a barkácsboltba
 Mixing in progress...=Keverés folyamatban...
 Market value:=Piaci érték:
 Collect output=Eredmény begyűjtése
-Drag packaged product into output=<size\=8>Csomagolt terméket húzz az eredménybe<size/>
+Drag packaged product into output=Húzza a kész terméket a megfelelő helyre
 UNPACK=KICSOMAGOLÁS
 
 Electric Plant Trimmers=Elektromos növényvágók
@@ -1756,9 +1759,9 @@ A clear glass jar to keep various substances in. Holds 5x units of any product.=
 Plant growth regulator (PGR) will increase the yields of your plants, at the cost of quality.=Növény növekedés szabályozó (PGR) – több termést hoz, de csökken a minőség.
 Instantly grows the plant by 50%, but reduces plant quality.=Azonnal 50%-kal növeli a növényt, de rontja a minőséget.
 All-natural fertilizer which will increase the quality of your plants.=Természetes trágya – javítja a növényeid minőségét.
-(Hold) Mount=(Tartsd) Felszállás
+(Hold) Mount=(Tartsd lenyomva) Felszállás
 Dismount=Leszállás
-(Hold) Jump=(Tartsd) Ugrás
+(Hold) Jump=(Tartsd lenyomva) Ugrás
 UNDER ARREST=LETARTÓZTATVA
 WANTED=KERESVE
 Large Storage Rack=Nagy tárolópolc
@@ -2063,8 +2066,10 @@ We've been working together for a while now, and you've proven to be quite relia
 If you're needing to order larger quantities of supplies, you can now organize an in-person meeting with me. Just send me a text.=Ha nagyobb mennyiségű szállítmányra lenne szükséged, most szervezhetünk egy személyes találkozót. Csak küldj egy üzenetet.
 r:Combine ingredients in bowl (.*)/(.*)=Kombinálja az összetevőket a tálba $1/$2
 We need to meet up=Találkoznunk kell
-r:Agreed. I'll be next to the mayor's house for the next (\d+) hours.=Egyetértettünk. A polgármester háza mellett leszek $1 óráig.
-r:Agreed. I'll be under the west bridge for the next (\d+) hours.=Egyetértettünk. A nyugati híd alatt leszek $1 óráig.
+r:Agreed. I'll be next to the mayor's house for the next (\d+) hours.=Rendben. A polgármester háza mellett leszek $1 óráig.
+r:Okay. I'll be next to the mayor's house for the next (\d+) hours.=Rendben. A polgármester háza mellett leszek $1 óráig.
+r:Agreed. I'll be under the west bridge for the next (\d+) hours.=Rendben. A nyugati híd alatt leszek $1 óráig.
+r:Okay. I'll be under the west bridge for the next (\d+) hours.=Rendben. A nyugati híd alatt leszek $1 óráig.
 r:Copy. I'll message you when it's ready in about (\d+) hours.=Értettem. Üzenek neked, amikor kész lesz kb. $1 óra.
 Howdy buddy. if you're looking for protection, you've come to the right place.=Szia haver, ha védelemre van szükséged, jó helyre jöttél.
 What do you sell?=Mit árulsz?
@@ -2084,7 +2089,7 @@ Used to hang grow lights above pots.=Növekedési fénytartóként használják 
 Cheap and simple halogen grow light. Must be placed on a suspension rack.=Olcsó és egyszerű halogén növekedési fény. Fel kell tennie egy felfüggesztési állványra.
 A simple LED grow light. Emits a purple light that stimulates plant growth 15% faster than halogen. Must be placed on a suspension rack.=Ez egy egyszerű LED növekedési fény. Lilás fényt bocsát ki, ami 15%-kal gyorsítja a növekedést halogénhez képest. Fel kell helyezni egy felfüggesztő állványra.
 That'll be a $1000 signing fee, and the employee's daily wage will be $200.=Az aláírási díj $1000, és az alkalmazott napi bére $200 lesz.
-Deal=Üzlet
+Deal=Üzlet megkötése
 Benji is out dealing=Benji most árusít
 I need to collect the earnings=A keresetet be kell gyűjtenem
 Benji Coleman's Inventory=Benji Coleman's Készlet
@@ -2095,8 +2100,8 @@ Actually, nevermind=Tulajdonképpen, inkább nem
 Outstanding, the property has been transferred to your name.=Remek, az ingatlan átváltott a nevedre.
 Contains trash=Tartalmaz szemetet
 Hello sir. Ready to peruse the supplies?=Helló uram. Készen állsz áttekinteni a készletet?
-Deal Expired=Megszűnt az üzlet
-Deal Expired Soon=Hamarosan megszűnik az üzlet
+Deal Expired=Megszűnt az üzletelés
+Deal Expired Soon=Hamarosan megszűnik az üzletelés
 BUY=<\size=12>Vásárlás</size>
 Assign a station to the chemist=Kijelöljük a vegyészhez az állomást
 1x Chemist=1x Vegyész
@@ -2115,7 +2120,7 @@ Chemical element that is an essential nutrient in a healthy diet. It also has ot
 r:(.*),Contruction site=1$, Építési terület
 Do you want to work for me as a distributor?=Akarsz nekem dolgozni mint terítő?
 Alright, I'll be a dealer for you but there is a $1000 signing fee, and I'll take a 20% cut of each sale. We got a deal?=Rendben, én leszek a dílered, de van egy 1000 dolláros aláírási díj, és az eladásokból 20%-ot kapok. Üzlet?
-r:Deal (.*)$=Üzlet $1
+r:Deal (.*)$=Üzletelés $1
 r:Deal completed for (.*)$=Üzlet lezárult vele: $1
 Thank you. Bring me some product and assign some customers to me, and I'll get to work.=Köszönöm. Hozzál nekem termékeket, és adj hozzá néhány ügyfélt, majd dolgozom.
 Pawn shop west wall=Zálogház nyugati fala
@@ -2138,7 +2143,7 @@ r:You owe ([A-Za-z ]+) <color\=#54E717>\$(\d{1,3}(?:,\d{3})*)</color>\. Insert c
 r:I've received \$(\d{1,3}(?:,\d{3})*) cash from you\. Your debt is now \$(\d{1,3}(?:,\d{3})*)=Kaptam $<color\=#54E717>$1</color> készpénzt tőled. Az adósságod most $<color\=#54E717>$2</color>.
 
 Albert Hoover's Stash=Albert Hoover Rejtekhelye
-r:Agreed. I'll be under the north end of the overpass for the next (\d+) hours.=Egyetértettünk. Az északi felüljáró alatt leszek $1 órára.
+r:Agreed. I'll be under the north end of the overpass for the next (\d+) hours.=Rendben. Az északi felüljáró alatt leszek $1 órára.
 r:You owe Albert Hoover <color\=#54E717>\$(\d{1,3}(?:,\d{3})*)</color>\. Insert cash and exit stash to pay off your debt=Tartozol Albert Hoovernak $<color\=#54E717>$1</color>. Helyezz el készpénzt és szállj ki a rejtekhelyről, hogy kiegyenlítsd az adósságodat.
 [Schedule Deal]:[Üzletütemezés]
 r:Reach the rank of <color=#54E717>\$(\d{1,3}(?:,\d{3})*)</color>\ to access this area.=Érd el a <color=#54E717>$1</color> rangot a terület hozzáféréséhez.
@@ -2352,8 +2357,8 @@ Standard Methamphetamine=Standard metamfetamin
 • Paranoia=• Paranoia
 •  Munchies=•  Falásroham
 • Munchies=• Falásroham
-•  Focused=•  Szélesztett
-• Focused=• Szélesztett
+•  Focused=•  Fókuszált
+• Focused=• Fókuszált
 •  Euphoric=•  Eufórikus
 • Euphoric=• Eufórikus
 •  Calming=•  Nyugtató
@@ -2382,7 +2387,7 @@ The drop is ready. You can find it on the pawn shop west wall=A csomagod készen
 The Laundromat=A Mosoda
 The Post Office=A Posta
 The Car Wash=Az Autómosó
-Taco Ticklers=Taco Cikizők
+Taco Ticklers=Taco étterem
 So you'd like to purchase laundromat? Payments are made from your online balance.=Tehát meg szeretnéd vásárolni a mosodát? A fizetés az online egyenlegedből történik.
 Congratulations! The business has been transferred to your name.=Gratulálok! Az üzlet a nevedre került.
 
