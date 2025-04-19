@@ -951,7 +951,7 @@ Another Day in Paradise=Még egy nap a Paradicsomban
 OR=VAGY
 r:\+ (\d+) Others=\+ $1 egyéb
 Bugs=Hibák
-Mixer=Keverő
+Mixer=Keverendő anyag
 Behind Thompson Construction=A Thompson építészet mögött
 
 \\\\\\ ---- A játék terjedelme  ---- //////  
@@ -1669,7 +1669,7 @@ Products=Termékek
 I want to pay off my debt=Szeretném törleszteni az adósságomat
 Start a new mix at the mixing station=Kezdj új keveréket a keverőállomáson
 Use Mixing Station=Használj keverőállomást
-Insert unpackaged product and mixing ingredient=Tegyél be csomagolatlan terméket és keverési összetevőt
+Insert unpackaged product and mixing ingredient=Tegyél be nyers terméket és keverendő összetevőt
 Activate sprinkler=Öntözőt bekapcsolni
 Police curfew in effect until 5AM=Rendőrségi kijárási tilalom van érvényben 5-ig
 It is 4AM - go to sleep to progress to tomorrow=Hajnali 4 óra van – menj aludni, hogy eljuss holnapig
@@ -2205,7 +2205,7 @@ Sure is=Persze
 
 [SPACEBAR]=[SPACE]
 
-Enter vehicle=Autóba ülés
+Enter vehicle=beszállás
 Access trunk=Hozzáférés a csomagtartóhoz
 Trunk=Csomagtartó
 You have completed deals any time within the window you choose. Now, choose the morning window.=Bármikor megkötöttél üzletet a választott időablakodon belül. Most válassz egy reggeli időtartományt.
@@ -2400,16 +2400,16 @@ The Cheetah=A Gepárd
 Actually, nevermind.=Tulajdonképpen, felejtsd el.
 Manage business=Üzlet kezelése
 Business Management=Üzletmenedzsment
-Laundering Timeline=Mosási idővonal
+Laundering Timeline=Pénzmosási idővonal
 Launder=Mosás
-All Active Laundering Operations=Minden aktív mosási művelet
+All Active Laundering Operations=Minden aktív pénzmosási művelet
 Not enough cash=Nincs elég készpénz
 business=üzlet
 Amount=Mennyiség
 Time Remaining=Hátralévő idő
 No active Laundering Operations=Nincs aktív mosási művelet
 Current total=Jelenlegi összeg
-New Laundering Operation=Új mosási művelet
+New Laundering Operation=Új pénzmosási művelet
 
 The business is already at maximum laundering capacity.=Az üzlet már maximális mosási kapacitáson van.
 sr:(.*) hours=$1 óra
@@ -3544,7 +3544,7 @@ sr:"^Eso será <color\\"=Ez <color\\ lesz
 Wenn du mehr davon brauchst, sag Bescheid – ich mach den nächsten Block direkt fertig.
 
 No what I like=Nem az én ízlésem
-START=KEZD
+START=KEZDÉS
 sr:"So you'd like to purchase (.+)?$"=Szóval $1-t szeretnél vásárolni?
 Good doing business with ya! Your new ride is waiting outside.=Jó üzlet volt veled! Az új autód kint vár
 Monk=Szerzetes
