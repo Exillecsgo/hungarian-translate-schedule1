@@ -265,7 +265,7 @@ Hides FPS label.=Elrejti az FPS kijelzést
 
 \\\\\\ ---- Töltési utasítások  ---- //////  
 Feeling stingy? Customers sometimes won't notice if you give them slightly less product than requested.=Fukar vagy? A vásárlók néha nem veszik észre, ha egy kicsit kevesebbet adsz nekik, mint amennyit kértek.  
-You won't be able to enter your property while wanted if you're within sight of police.=Nem tudod belépni az ingatlanodra, amíg köröznek és a rendőrök látnak.  
+You won't be able to enter your property while wanted if you're within sight of police.=Nem tudsz belépni az ingatlanodba, amíg köröznek és látnak a rendőrök.  
 When curfew is active, all citizens are legally required to remain within their residences from 9pm to 5am.=Kijárási tilalom esetén minden lakos köteles 21:00 és 5:00 között otthon tartózkodni.  
 Each property has a limit to the amount of employees that can work there.=Minden ingatlannak van egy felső korlátja, hány alkalmazott dolgozhat ott.  
 You can repaint your vehicles at the body shop.=A műhelyben újrafestheted a járműveidet.  
@@ -504,7 +504,7 @@ Watering Can=Locsolókanna
 Plant Trimmers=Metszőolló  
 Baggie=Zacskó  
 Jar=Üveg  
-Packaging Station=Csomagoló állomás  
+Packaging Station=<size\=11>Csomagoló állomás</size>
 Bed=Ágy  
 Messages=Üzenetek  
 Hover a task to view details=Mutass egy feladatra részletekért  
@@ -602,6 +602,7 @@ Laundromat=Mosoda
 Thrifty \nThreads=Thrifty\nTextíliák  
 Barbershop=Fodrászat  
 Pawn shop=Zálogház  
+Insert items for appraisal (legal items only)=Az értékbecsléshez rakj be tárgyat(csak legális)
 Liquor \nStore=Italbolt  
 Top\n Tattoo=Top\nTetováló  
 Community\nCenter=Közösségi\nKözpont  
@@ -1019,7 +1020,7 @@ Switch on=Bekapcsolás
 Open=Nyitott
 Use Packaging Station=Csomagoló állomás használata
 Access storage=Hozzáférés a tárolóhoz
-Medium Storage Rack=Közepes tároló polc
+Medium Storage Rack=<size\=11>Közepes tároló polc</size>
 Exit=Kilépés
 r:(\d+)L=$1 L
 A pair of plant trimmers. Necessity for harvesting plants.=Egy pár növényi olló. Szükséges a betakarításhoz.
@@ -1628,8 +1629,8 @@ Traditional headwear for a Chef. Perfect for concealing a rodent in.=Hagyományo
 CargoPants=Zsebnadrág
 sr:"Cargo Pants (.+)$"=Zsebnadrág $1
 Cargo pants with lots of pockets (decorative pockets).=Zsebnadrág sok zsebbel (díszzsebekkel).
-sr:"Cap (.+)$"=Baseballsapka $1
-Cap=Baseballsapka
+sr:"Cap (.+)$"=Baseball sapka $1
+Cap=Baseball sapka
 Classic and timeless cap.=Klasszikus és időtálló sapka.
 ButtonUp_Rolled=Begombolt (felhajtott)
 sr:"Button-Up Shirt (Rolled) (.+)$"=Begombolt ing (felhajtott) $1
@@ -1681,9 +1682,9 @@ Collect output=Eredmény begyűjtése
 Drag packaged product into output=Húzza a kész terméket a megfelelő helyre
 UNPACK=KICSOMAGOLÁS
 
-Electric Plant Trimmers=Elektromos növényvágók
-Trash Grabber=Hulladékfogó
-Trash Bag=Hulladékzsák
+Electric Plant Trimmers=<size\=11>Elektromos trimmer</size>
+Trash Grabber=Szemétszedő
+Trash Bag=Kukazsák
 Used to easlly collect trash.=Egyszerűen használható szemétgyűjtéshez
 Basic potting soil to grow stuff in.=Alapvető ültetési talaj növényekhez
 Remember to list your new\n product for sale in the product\n manager app.=Ne feledd felsorolni az új termékedet az eladásra a termékmenedzser alkalmazásban.
@@ -1713,6 +1714,7 @@ Insufficient online balance=Nincs elég online egyenleg
 Small Storage Rack=Kis tárolópolc
 Hi boss, just letting you know I'm out of product.=<size\=28>Szia főnök, csak szólok, hogy kifogytam a termékekből.</size>
 Cuke=Kóla
+Banana=Banán
 A refreshing can of Cuke that leaves you feeling energized. It's heaven in a can.=Frissítő Coka – energizál, mennyei egy dobozban.
 Medication that is used to get you chubbed-up.=Gyógyszer, ami segít újra fitté válni.
 View dead drop=Rejtekhely megtekintése
@@ -1784,7 +1786,8 @@ Battery=Akkumulátor
 Mega Bean=Mega Bab
 Energy Drink=Energiaital
 Chili=Chili
-Flu Medicine=Influenza gyógyszer
+Flu Medicine=<size\=11>Influenza gyógyszer</size>
+Viagor=Viagra
 Mouth Wash=Szájvíz
 Donut=Fánk
 Motor Oil=Motorolaj
@@ -1829,9 +1832,9 @@ Save game=Játék mentése
 BODY SEARCH=Test átvizsgálása
 Officer=Rendőr
 Police curfew starting soon=Rendőrségi kijárási tilalom kezdődik hamarosan
-Long-Life Soil=Hosszú életű föld
-Extra Long-Life Soil=Hosszú élettartamú föld
-Extra long-lasting soil that can be used to grow 3 plants before expiring.=Rendkívül tartós föld, amely 3 növény termesztésére használható lejárat előtt.
+Long-Life Soil=<size\=11>tartós életű föld</size>
+Extra Long-Life Soil=<size\=9>Extra tartós életű föld</size>
+Extra long-lasting soil that can be used to grow 3 plants before expiring.=Rendkívül tartós föld, amely 3 növény termesztésére használható.
 Loading Dock=Rakodóhely
 Wait$1s=Várj $1s
 Molly Presley\n(Dealer)=Molly Presley\n(Díler)
@@ -1918,7 +1921,7 @@ Combat Boots=Harci csizma
 Fingerless Gloves=Ujjatlan kesztyű
 Porkpie Hat=Porkpie-kalap
 Chef Hat=Szakácssapka
-Cowboy Hat=Kovboykalap
+Cowboy Hat=Cowboy kalap
 Collar Jacket=Galléros dzseki
 Tactical Vest=Taktikai mellény
 Button-Up Shirt=Begombolós ing
@@ -1942,7 +1945,7 @@ Air Pot=Levegőcserép
 Full Spectrum Grow Light=Teljes spektrumú növekedési lámpa
 Pot Sprinkler=Edényszóró
 Soil Pourer=Földöntő
-Packaging Station Mk II=Csomagoló állomás Mk II
+Packaging Station Mk II=<size\=11>Csomagoló állomás Mk II</size>
 Brick Press=Téglaprés
 Mixing Station Mk2=Keverőállomás Mk II
 Shitbox=Csöves munkásautó
@@ -2032,8 +2035,8 @@ Click cap to remove=Kattints a tetejére, hogy eltávolítsd
 Drop seed into hole=Dobd a lyukba a magot
 r:Click soil chunks to bury seed (.*)\/(.*)=Kattints a földre, hogy a magot letemesd $1/$2
 Bag trash=Szemetet zacskózni
-Hi boss, what do you need?=Szia főnök, miben segíthetek?
-I need to trade some items=Szükségem van néhány elem cseréjére
+Hi boss, what do you need?=Szia főnök, helyzet?
+I need to trade some items=Adnék/elvennék valamit
 How do I assign customers to you?=Hogyan rendelhetem hozzád az ügyfeleket?
 Place <color=#7FFD63>packaged product</color> here and the dealer will sell it to assigned customers=Helyezz el itt <color=#7FFD63>csomagolt terméket</color>, és a díler eladja a hozzárendelt ügyfeleknek
 Insufficient online balance. Visit an ATM to deposit cash.=Nincs elegendő online egyenleg. Menj egy ATM-hez pénzt befizetni.
@@ -2868,7 +2871,7 @@ sr:"Hey, that drop is ready (.+)$"=Hé, a csomagod kész $1
 r:"^(.+) will draw his daily wage of <color=#54E717>\$(\d{1,3}(?:,\d{3})*)</color> from this briefcase.$"=$1 kiveszi napi bérét a <color=#54E717>$ $2</color> ebből a táskából.
 r:"^(.+) will draw her daily wage of <color=#54E717>\$(\d{1,3}(?:,\d{3})*)</color> from this briefcase.$"=$1 kiveszi napi bérét a <color=#54E717>$ $2</color> ebből a táskából.
 
-Howdy, buddy. You need somethin'?=Helló, haver. Szükséged van valamire?
+Howdy, buddy. You need somethin'?=Helló. Szükséged van valamire?
 I'd like to sell something=Szeretnék eladni valamit
 Insert items for appraisal=Tedd be a dolgokat értékelésre
 EXIT=KILÉPÉS
@@ -2919,8 +2922,8 @@ Dan's Hardware=Dan barkácsboltja
 Out of stock=Nincs készleten
 CARD ONLY=Csak kártyás fizetés
 "Bleuball´s Boutique"
-Wooden Sign=Fakihívó
-Metal Sign=Fémkijelző
+Wooden Sign=Fa tábla
+Metal Sign=Fém tábla
 Wall-Mounted=Falra szerelt
 Safe=Széf
 Grandfather Clock=Álló ingaóra
@@ -2990,7 +2993,7 @@ There are two types of currency: and . Customers pay with cash, but most legal s
 
 cash=<color=#54E717>Készpénz</color>
 online balance=<color=#4CB0FF>Online-egyenleg</color>
-ATM=<size\=19>Bankautomata</size>
+ATM=<size\=16>Bankautomata</size>
 card=<color=#4CB0FF>Kártya</color>  
 online balance=<color=#4CB0FF>Online-egyenleg</color>
 
@@ -3012,7 +3015,7 @@ Can be used to either gather up trash or to bag the contents of a trash can.=Has
 A large sized, 4-tier storage rack.=Nagy méretű, 4 szintes tároló polc.
 Wooden display cabinet for putting all your fancy stuff in.=Fa vitrin a csinos cuccaid elhelyezésére.
 Metal trash can you can place trash in.=Fém szemetes, amibe szemetet helyezhetsz.
-Long-lasting soil that can be used to grow 2 plants before expiring.=Hosszú életű talaj, ami 2 növényhez elég, mielőtt kimerülne.
+Long-lasting soil that can be used to grow 2 plants before expiring.=Tartós életű talaj, ami 2 növényhez elég.
 When activated, will water the adjacent pot or grow tent.=Bekapcsoláskor megöntözi a szomszédos cserepet vagy növekedősátrat.
 An upgraded version of the packaging station with a rotary packing tool. Allows for much faster packing of products.=Fejlettebb csomagolóállomás forgócsomagoló eszközzel – jelentősen felgyorsítja a csomagolást.
 A standing floor lamp. Can be switched on and off.=Álló padlólámpa – be- és kikapcsolható.
@@ -3549,6 +3552,9 @@ sr:"So you'd like to purchase (.+)?$"=Szóval $1-t szeretnél vásárolni?
 Good doing business with ya! Your new ride is waiting outside.=Jó üzlet volt veled! Az új autód kint vár
 Monk=Szerzetes
 Buzz cut=Felnyírt haj
+Receding=Ritkuló
+Shoulder length=Vállig érő
+Side part bob=Oldalasan leérő
 Mid fringe=Középső frufru
 The Franklin=A Franklin
 Bowl cut=Tálvágás
