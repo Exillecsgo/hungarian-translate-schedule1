@@ -330,6 +330,9 @@ Products Sold=Eladott termékek
 Choose who to summon=Wen willst du Rufen?  
 Lights=Lichter  
 r:\+\$(\d{1,3}(?:,\d{3})*)\sBonus=\+$1 Bónusz  
+r:"^<color\=#54E717>(\+\$\d+)</color> Curfew Bonus$"=<color\=#54E717>$1</color> Kijárási tilalom bónusz
+r:"^<color\=#54E717>(\+\$\d+)</color> Quick Delivery Bonus$"=<color\=#54E717>$1</color> Gyors kiszállítási bónusz
+r:"^<color\=#54E717>(\+\$\d+)</color> Generosity Bonus$"=<color\=#54E717>$1</color> Bőkezűségi bónusz
 NOW AVAILABLE:=MOST ELÉRHETŐ:  
 [Complete Deal]=[Üzlet véglegesitése]  
 Product=Termék 
@@ -505,7 +508,7 @@ Watering Can=Locsolókanna
 Plant Trimmers=Metszőolló  
 Baggie=Zacskó  
 Jar=Üveg  
-Packaging Station=<size\=11>Csomagoló állomás</size>
+Packaging Station=<size\=11>Csomagolóállomás</size>
 Bed=Ágy  
 Messages=Üzenetek  
 Hover a task to view details=Mutass egy feladatra részletekért  
@@ -728,6 +731,9 @@ Getting Started=Kezdés
 Rent a motel room=Bérelj egy motelszobát.
 Check out your motel room=Látogasd meg a motelszobádat.
 Go to the hardware store=Menj el a barkácsboltba.
+Buy 1x watering can=Vásárolj 1x locsolókannat
+Buy 1x soil=Vásárolj 1x földet
+Buy 1x grow tent=Vásárolj 1x növénytakaró sátrat
 • Buy 1x grow tent=• Vásárolj 1x növényi sátrat.
 • Buy 1x soil=• Vásárolj 1x földet.
 • Buy 1x watering can=• Vásárolj 1x locsolókannát.
@@ -738,7 +744,7 @@ Talk to Uncle Nelson at a payphone=Beszélj Nelson bácsival egy telefonfülkéb
 Gearing Up=Felszerelés
 Order 1x OG Kush Seed from Albert Hoover=Rendelj 1x OG Kush magvetőt Albert Hoover-től.
 Wait for the dead drop (60 mins)=Várj a dead drop-ra (60 perc).
-Collect the dead drop=Kérd fel a dead drop-ot.
+Collect the dead drop=Gyűjtsd be a rejtett csomagot.
 Sow a weed seed=Vess el egy füvet.
 Water the weed plant=Öntözd meg a növényt.
 Harvest the weed plant once fully grown=Arasd le a növényt, ha teljesen megérett.
@@ -848,17 +854,12 @@ Use the laundering station to start a new laundering operation=Használd a mosá
 Wait for the laundering operation to complete=Várd meg, amíg a mosási művelet elkészül.
 
 Go to the hardware store=Menj el a barkácsboltba.
-Buy 1x Soil=Vásárolj 1x földet.
 
 
 \\\\\\ ---- tárgyak  ---- ////// 
 grow tent=növénytakaró sátor
 soil=föld
 watering can=locsolókanna
-• Buy 1x grow tent=• Vásárolj 1x növénytakaró sátrat
-• Buy 1x soil=• Vásárolj 1x földet
-• Buy 1x watering can=• Vásárolj 1x locsolókannat
-
 • Talk to the merchant=• Beszélj a kereskedővel
 • Talk to the fixer=• Beszélj a szerelővel
 • Talk to the arms dealer=• Beszélj a fegyverárussal
@@ -1123,6 +1124,7 @@ Not interested, sorry=Nem érdekel, bocs
 Brown apartment block=Barna lakóház
 Behind auto shop=Az autósbolt mögött
 What the hell?=Mi a fene?
+Nope - nevermind=Á, hagyjuk
 What?!=Mi?!
 Shit!=Basszus!
 Holy hell!=Szent szar!
@@ -1138,12 +1140,14 @@ Dude!=Haver!
 Woah man...=Hű, haver...
 Thanks=Köszi
 Thanks, we're done.=Köszi, végzünk
+Ready when you are homie=Mehet, ha te is készen vagy, haver.
 Complete Deal=Fejezd be az üzletet
-
+Lets get this over with=Essünk túl rajta.
+Alright come on=Rendben, gyerünk!
 Morning mate, what can I get ya?=Jó reggelt, haver, mit hozhatok?
 sr:"You've unlocked Chelsey as a customer. She will now start sending you deal offers."=Megnyitottad Chelsey-t ügyfélként. Mostantól ajánlatokat fog küldeni neked.
-
-
+Oh damn, I need me more of that. I'll text you=Azta, ebből nekem még több kell. Írok neked.
+Oh thank god=Ó, hála az égnek!
 Hello=Szia
 You got the stuff?=Megvannak a cuccok?
 Provide a sample to Chelsey near the doctor's office=Adj egy mintát Chelsey-nek az orvosi rendelő közelében
@@ -1750,7 +1754,9 @@ INSUFFICIENT BALANCE=NEM ELÉG EGYENLEG
 Use ATM=Használj ATM-et
 CANCEL=MEGSZAKÍTÁS
 r:DEPOSIT (.+)$=BEFIZETÉS $1
-Select amount to deposit=Befizetendő összeget válassz
+r:WITHDRAW (.*)=KIFIZETÉS $1
+Select amount to deposit=Válaszd ki a befizetni kívánt összeget.
+Select amount to withdraw=Válaszd ki a felvenni kívánt összeget.
 Success!=Sikeres!
 You have deposited (.+)$=Befizettél $1-t
 RETURN TO MENU=VISSZA A MENÜBE
@@ -1953,8 +1959,8 @@ Shitbox=Csöves munkásautó
 Stubble=Borosta
 Horse Semen=Ló sperma
 Coffee Table=Dohányzóasztal
-Wooden Square Table=Fa négyzet alakú asztal
-Metal Square Table=Fém négyzet alakú asztal
+Wooden Square Table=négyzet faasztal
+Metal Square Table=<size\=11>négyzet fémasztal</size>
 Floor Lamp=Állólámpa
 TV=TV
 
@@ -1980,7 +1986,7 @@ Packin'=Csomagolás
 Keeping it Fresh=Frissen tartás
 Money Management=Pénzkezelés
 Wretched Hive of Scum and Villainy=Tobzódó aljas fészek
-Gearing Up=Felkapcsolódás
+Gearing Up=Felkészülés
 Moving Up=Felkapaszkodás
 Welcome to Hyland Point.=Üdvözlünk Hyland Pointban.
 You haven't recruited any dealers=Még nem kezdtél felvenni dílert.
@@ -2269,7 +2275,7 @@ Clothing=Ruházat
 Finalize=Befejezés
 Player=Lejátszó
 Eyebrows=Ferde szemöldök
-Ready when you are=Kész, amikor te is
+Ready when you are=Készen állok,ha te is.
 You're a small-time drug dealer from the south.=Kis időszaki díler vagy a délről.
 In a fresh town with no cash, no product, and no contacts.=Új városban pénz, termék és kapcsolatok nélkül.
 You only know one way to make money. Time to get to work.=Csak egy utat ismersz a pénzszerzéshez. Itt az ideje dolgozni menned.
@@ -2539,7 +2545,7 @@ r:"^I've received \$(\d{1,3}(?:,\d{3})*) cash from you\. Your debt is now \$(\d{
 sr:"I need a dead drop:\n(\d+x) (.+)$"=Szükségem van egy elrejtett csomagra:\n$1 $2
 
 sr:"Deal for (.+)"=Üzlet $1-nal
-sr:"Hello, I'm after (\d+x) (.+)\. I can pay <color\=#46CB4F>\$(\d{1,3}(?:,\d{3})*)</color> for it."=Hello, szükségem van $1 $2. Tudok fizetni <color\=#46CB4F>$3$</color> érte.
+sr:"Hello, I'm after (\d+x) (.+)\. I can pay <color\=#46CB4F>\$(\d{1,3}(?:,\d{3})*)</color> for it."=Hello, szükségem van $1 $2.Tudok fizetni <color\=#46CB4F>$3$</color> érte.
 sr:"I'm after (\d+x) (.+)\. I can pay <color\=#46CB4F>\$(\d{1,3}(?:,\d{3})*)</color> for it Deal\?\?"=Szükségem van $1 $2. Fizetek értük <color\=#46CB4F>$3$</color>. Üzlet??
 sr:"You got (\d+x) (.+)\? I'll pay <color\=#46CB4F>\$(\d{1,3}(?:,\d{3})*)</color> for it"=Van $1 $2? Fizetek érte <color\=#46CB4F>$3$</color>
 sr:"Hey, I need (\d+x) (.+)\. I'll pay <color\=#46CB4F>\$(\d{1,3}(?:,\d{3})*)</color>. Deal?"=Szia, szükségem van $1 $2. Fizetek értük <color\=#46CB4F>$3$</color>. Üzlet?
@@ -2551,13 +2557,12 @@ sr:"Whats up bro, I'm after (\d+x) (.+)\. I can pay <color\=#46CB4F>\$(\d{1,3}(?
 sr:"Hey, I need (\d+x) (.+)\. I'll pay <color\=#46CB4F>\$(\d{1,3}(?:,\d{3})*)</color>\. Deal\?"=Szia, $1 $2? Fizetek <color\=#46CB4F>$3$</color>. Megcsináljuk?
 sr:"Need me (\d+x) (.+)\! I'll pay <color\=#46CB4F>\$(\d{1,3}(?:,\d{3})*)</color> yeah\?\?"=Kell nekem $1 $2! Fizetek <color\=#46CB4F>$3$</color>, rendben van?
 sr:"Hey, have you got (\d+x) (.+)\? I'll pay <color\=#46CB4F>\$(\d{1,3}(?:,\d{3})*)</color> for it"=Van nálad $1 $2? Fizetek érte <color\=#46CB4F>$3$</color>
-sr:"Hey dog\, I need (\d+x) (.+)\. I'll pay <color\=#46CB4F>\$(\d{1,3}(?:,\d{3})*)</color>\. Deal\?"=Szia haver, szükségem van $1 $2. Fizetek értük <color\=#46CB4F>$3$</color>. Üzlet?
+sr:"Hey dog\, I need (\d+x) (.+)\. I'll pay <color\=#46CB4F>\$(\d{1,3}(?:,\d{3})*)</color>\. Deal\?"=Szia haver, kéne $1 $2. Fizetek értük <color\=#46CB4F>$3$</color>. Üzlet?
 sr:"Ayo dawg\, if you got (\d+x) (.+) I'll pay <color\=#46CB4F>\$(\d{1,3}(?:,\d{3})*)</color> for it\. Deal\?"=Helló haver, ha van $1 $2, fizetek érte <color\=#46CB4F>$3$</color>. Üzlet?
 sr:"Yo homie\, can I get (\d+x) (.+)\? I'll pay <color\=#46CB4F>\$(\d{1,3}(?:,\d{3})*)</color>"=Yo haver, kaphatok $1 $2? Fizetek érte: <color\=#46CB4F>$3$</color>
-sr:"U got (\d+x) (.+)\?\?\? I'll pay <color\=#46CB4F>\$(\d{1,3}(?:,\d{3})*)</color> for it. DEAL?"=Van $1 $2 nálad??? Fizetek érte <color\=#46CB4F>$3$</color>. ÜZLET?
-
-r:Deal for (.*) \(Expires in (\d+) hrs\)=Üzlet $1-vel <color\=#54E717>(Lejár $2 órán belül)</color>
-r:Deal for (.*) \(Begins in (\d+) hrs\)=Üzlet $1-vel <color\=#999999>(Kezdődik $2 órán belül)</color>
+sr:"U got (\d+x) (.+)\?\?\? I'll pay <color\=#46CB4F>\$(\d{1,3}(?:,\d{3})*)</color> for it\. DEAL\?"=Van $1 $2 nálad??? Fizetek érte <color\=#46CB4F>$3$</color>. ÜZLET?
+r:Deal for (.*) \(Expires in (\d+) hrs\)=Üzlet vele: $1 <color\=#54E717>(Lejár $2 órán belül)</color>
+r:Deal for (.*) \(Begins in (\d+) hrs\)=Üzlet vele: $1 <color\=#999999>(Kezdődik $2 órán belül)</color>
 Deal for Joe=Üzlet Joe-val
 Deal for Andy=Üzlet Andy-vel
 Deal for Doug=Üzlet Doug-gal
@@ -3493,7 +3498,7 @@ You wanna buy something? [Offer a deal]=Akarsz venni valamit? [Ajánlatot tenni]
 Hi=Szia
 Purchase Cuke=Cuke vásárlása
 Thanks!=Köszi!
-Ready?=Kész vagy?
+Ready?=Készen állsz?
 in the alleyway behind Slop Shop (the diner)=a Slop Shop (az étkezde) mögötti sikátorban
 the alleyway behind Slop Shop (the diner)=a Slop Shop (az étkezde) mögötti sikátor
 Oooh yeah not bad! I'll text you=Oooh igen, nem rossz! Írok neked
