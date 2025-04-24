@@ -37,7 +37,7 @@ KAESUL=KAESUL
 Zac Williams=Zac Williams  
 \\\\\\ ---- Character  ---- ////// 
 Body=Test
-Eyeball Color=Szemszín
+Eyeball color\=Szemszín
 \\\\\\ ---- Vezérlőrendszer  ---- ////// 
 Interact=Interakció
 View Avatar=Avatar megtekintése
@@ -342,6 +342,7 @@ Thanks for playing!=Köszönjük, hogy játszottál!
 Report Type=Jelentés típusa
 Insert ingredient=Hozzávaló beillesztése
 Cauldron=Üst  
+r:"Insert <color\=#FFC73D>(\d+x)</color> coca leaves and <color\=#FFC73D>(\d+x)</color> gasoline"=Helyezz be <color\=#FFC73D>$1</color> kokalevelet és <color\=#FFC73D>$2</color> benzint.
 full game on Steam.\n=teljes játék a Steamen..\n  
 Console Commands=Konzol parancsok  
 Grab the trimmers from the storage rack and harvest the fully-grown weed plant=Fogja a metszőollót a tárolóállványról, és szedje le a teljesen kifejlett növényt. 
@@ -373,8 +374,8 @@ Packaging=Csomagolás
 Provide ingredients then select recipe=Adja meg az összetevőket, majd válassza ki a receptet 
 CONSOLE >=KONZOL >  
 View Commands=Parancsok megtekintése
-Skin Color=Bőrszín  
-Hair Color=Hajszín 
+Skin color\=Bőrszín  
+Hair color\=Hajszín 
 Male=Férfi 
 Click and hold items to conceal=Kattintson és tartsa lenyomva az elemeket az elrejtéshez 
 FirstName\nLastName=Keresztnév\nUtónév 
@@ -679,7 +680,7 @@ Buy a trash bag from the hardware store=Vásárolj egy szemeteszsákot a barkác
 Bag the contents of the trash can=Csomagold be a szemetes tartalmát egy zsákba.
 
 Complete your first deal=Zárd le az első üzleted.
-Deal for Hank <color=#54E717>(Expires in 4 hrs)</color>=Üzlet Hank-kel <color=#54E717>(Lejár 4 óra múlva)</color>.
+Deal for Hank <color\=#54E717>(Expires in 4 hrs)</color>=Üzlet Hank-kel <color\=#54E717>(Lejár 4 óra múlva)</color>.
 Behind the suburbs bus stop=A külvárosi buszmegálló mögött.
 Open the map app to see your potential customers=Nyisd meg a térkép alkalmazást az esetleges vásárlók megtekintéséhez.
 • Save $800 for a new property=• Takaríts meg $800-t egy új ingatlanhoz.
@@ -1063,11 +1064,11 @@ Pour water=Vizet önteni
 Pour soil=Föld öntése
 Click and drag to cut soil bag=Kattints és húzd a földbag vágásához
 r:Pour soil into pot (.+)%=Földöntés ($1)%
-While dragging an item, press <color=#88CBFF>A</color> or <color=#88CBFF>D</color> to rotate it.=Miközben egy tárgyat húzol, nyomd meg az <color=#88CBFF>A</color> vagy <color=#88CBFF>D</color> gombot a forgatáshoz.
+While dragging an item, press <color\=#88CBFF>A</color> or <color\=#88CBFF>D</color> to rotate it.=Miközben egy tárgyat húzol, nyomd meg az <color\=#88CBFF>A</color> vagy <color\=#88CBFF>D</color> gombot a forgatáshoz.
 Rotate Held Item=Forgassa a tartott tárgyat
 Move=Mozgatás
 Pour water over target=Célozd meg a célkeresztet a vizzel.
-Press <color=#88CBFF>Tab</color> to open your phone.=Nyomd meg a <color=#88CBFF>Tab</color> gombot a telefonod megnyitásához.
+Press <color\=#88CBFF>Tab</color> to open your phone.=Nyomd meg a <color\=#88CBFF>Tab</color> gombot a telefonod megnyitásához.
 Place lid on jar=Helyezze fel a fedelet az üvegre
 I'd like to rent a room=Szeretnék egy szobát bérelni
 Respond to your customers in the messages app=Válaszolj az ügyfeleidnek az üzenet alkalmazásban
@@ -1117,7 +1118,7 @@ r:Pick up \$(\d{1,3}(?:,\d{3})*)=$1 felvenni
 Pick up Cuke=Vedd fel a Cuke-t
 Oh no!=Ó, nem!
 Yikes!=Ajaj!
-r:"I need to collect the earnings <color=#54E717>\(\$(\d{1,3}(?:,\d{3})*)\)</color>"=Be kell gyűjtenem a bevételt <color=#54E717>($1)</color>
+r:"I need to collect the earnings <color\=#54E717>\(\$(\d{1,3}(?:,\d{3})*)\)</color>"=Be kell gyűjtenem a bevételt <color\=#54E717>($1)</color>
 The hell bro?=Mi a fene, haver?
 Mornin` dude=Jó reggelt, öreg
 Not interested, sorry=Nem érdekel, bocs
@@ -1164,7 +1165,7 @@ Customer expectations not met=<size=5>Az ügyfél elvárásai nem teljesültek</
 The hell?=Mi a fene?
 Bro...=Tesó...
 Not again...=Ne már megint...
-r:"Insert <color=#FFC73D>(\d+x)</color> coca leaves and <color=#FFC73D>(\d+x)</color> gasoline"=<color=#FFC73D>$1</color> kokalevél és <color=#FFC73D>$2</color> benzint helyezz be
+r:"Insert <color\=#FFC73D>(\d+x)</color> coca leaves and <color\=#FFC73D>(\d+x)</color> gasoline"=<color\=#FFC73D>$1</color> kokalevél és <color\=#FFC73D>$2</color> benzint helyezz be
 Use Cauldron=Használj üstöt
 Use Brick Press=Használj brikettprést
 You're welcome friend. If you need special\n equipment or supplies, Oscar has what you need.=Szivesen haver. Ha szükséged van speciális \n felszerelésre vagy készletekre, Oskarnál van, amit keresel.
@@ -1173,7 +1174,7 @@ INVENTORY FULL=KÉSZLET TELE
 Classic double-kick popsicle skateboard. Use it to get around faster than on-foot.=Klasszikus dupla rúgásos jégkrém gördeszka. Használd, hogy gyorsabban közlekedj, mint gyalog.
 Cruiser skateboard designed for high-speed, straight line motion. Not particularly agile.=Cruiser gördeszka, amelyet nagysebességű, egyenes mozgásra terveztek. Nem különösen agilis.
 Tasteful gold-plated skateboard. High top speed but slow acceleration.=Ízléses arannyal futtatott gördeszka. Magas végsebesség, de lassú gyorsulás.
-r:"<color=#16F01C>\$(\d{1,3}(?:,\d{3})*)</color> Laundered"=<color=#16F01C>$1</color> kimosva
+r:"<color\=#16F01C>\$(\d{1,3}(?:,\d{3})*)</color> Laundered"=<color\=#16F01C>$1</color> kimosva
 sr:"^Select items to order from (.+)$"=Válassz ki elemeket a rendeléshez innen: $1
 
 \\\\\\ ---- Főzés és gyártás  ---- //////  
@@ -1229,8 +1230,8 @@ r:Start burner (.*)=Gyújtsd meg a lángot $1
 Cooking in progress...=Főzés folyamatban...
 We Need To Cook=Főznünk kell
 You're not going to get too far if you're only pushing weed. Time to move onto something a bit harder.=Nem jutsz messzire, ha csak füvet árulsz. Ideje váltani valami keményebbre.
-Oscar will sell everything you need to make meth, with the exception of <color=#4CB0FF>pseudo</color>. For that, you're gonna need to hook yourself up with a supplier.=Osar mindent elad, amire szükséged van a methegyártáshoz - kivéve a <color=#4CB0FF>pseudót</color>. Ahhoz egy beszállítóra van szükséged.
-I don't know any pseudo suppliers, so you're on your own for this one. There ought to be someone in <color=#4CB0FF>Westville</color> that can get you what you need.=Nem ismerek semmilyen pseudo beszállítót, így ezen magának kell átesnie. Valakit <color=#4CB0FF>Westville</color>-ben találhat.
+Oscar will sell everything you need to make meth, with the exception of <color\=#4CB0FF>pseudo</color>. For that, you're gonna need to hook yourself up with a supplier.=Osar mindent elad, amire szükséged van a methegyártáshoz - kivéve a <color\=#4CB0FF>pseudót</color>. Ahhoz egy beszállítóra van szükséged.
+I don't know any pseudo suppliers, so you're on your own for this one. There ought to be someone in <color\=#4CB0FF>Westville</color> that can get you what you need.=Nem ismerek semmilyen pseudo beszállítót, így ezen magának kell átesnie. Valakit <color\=#4CB0FF>Westville</color>-ben találhat.
 Open up your contacts app and look for a supplier in Westville. Keep unlocking customers in that region, and you'll get their attention in no time.=Nyisd meg a kapcsolataid alkalmazást, és keress egy Westville-i beszállítót. Folytassad az ügyfélbázió kibővítését, és hamarosan be fognak figyelni rád.
 • Unlock the pseudo supplier in Westville (see contacts app for more info)=• Nyisd meg a Westville-i pseudo beszállítót (további részletekért lásd a kapcsolatok alkalmazást)
 • Purchase a chemistry station from Oscar=• Vásárolj egy kémiai állomást Oscartól
@@ -1277,7 +1278,7 @@ Oh shit!=Ó basszus!
 I don't think so...=Nem gondolnám...
 Stop!=Állj!
 Thanks. Hey, I know a guy called Salvador who can hook you up with coca seeds. I've given your number to him.=Köszi. Hé, ismerek egy Salvadort - ő tud kokacukrot szerezni neked. Átadtam neki a telefonszámodat.
-You can now order <color=#88CBFF>coca seeds</color> from Salvador. Coca plants yield <color=#88CBFF>coca leaves</color>, which are the main precursor ingredient for <color=#88CBFF>cocaine</color>.=Rendelheted a <color=#88CBFF>kokacukrot</color> Salvadortól. A koka növény</color> <color=#88CBFF>kokalevelet</color> terem, amely a <color=#88CBFF>kokain</color> fő alkotóeleme.
+You can now order <color\=#88CBFF>coca seeds</color> from Salvador. Coca plants yield <color\=#88CBFF>coca leaves</color>, which are the main precursor ingredient for <color\=#88CBFF>cocaine</color>.=Rendelheted a <color\=#88CBFF>kokacukrot</color> Salvadortól. A koka növény</color> <color\=#88CBFF>kokalevelet</color> terem, amely a <color\=#88CBFF>kokain</color> fő alkotóeleme.
 r:Click and hold over leaves to harvest (.*)/(.*)=Kattints és tartsd lenyomva a levelek betakarításához $1/$2
 r:Click leaves to harvest (.*)/(.*)=Kattints a levelek betakarításához $1/$2
 Good doin' business=Jó volt veled üzletelni
@@ -1310,7 +1311,7 @@ Oh yeah, boss man told me about you. Come in.=Ja, a főnök mesélt rólad. Gyer
 Melee weapons - blunt and sharp, and of course, firearms. Ammo too. I get more stuff in stock every now and then.=Közelharci fegyverek - tompa és éles, és persze lőfegyverek. Lőszer is. Mindig van egy kis új cuccom is.
 Are these weapons legal?=Ezek a fegyverek törvényesek?
 Yeahhhh, more or less. Most of them are probably not completely non-illegal… what're you asking' for anywho?=Jahhh, többé-kevésbé. A legtöbb valószínűleg nem teljesen nem-legális... de mit akarsz ezekkel?
-sr:"That'll be <color=#54E717>\$(\d{1,3}(?:,\d{3})*)</color> for the (.+)\. We got a deal, partner?"=Ez <color=#54E717>$1</color> lesz a(z) $2-ért. Alku, partner?
+sr:"That'll be <color\=#54E717>\$(\d{1,3}(?:,\d{3})*)</color> for the (.+)\. We got a deal, partner?"=Ez <color\=#54E717>$1</color> lesz a(z) $2-ért. Alku, partner?
 I'm looking for some weaponry.=Fegyvereket keresek.
 Evenin' partner, what can I do you for?=Estét, partner. Miben segíthetek?
 Good idea my friend. What are you after?=Jó ötlet, barátom. Mire vadászol?
@@ -1326,7 +1327,7 @@ Revólver=Revolver
 Cargador M1911=M1911 tár
 Munición de Revólver=Revolverlőszer
 ¿Qué vendes?=Mit árulsz?
-sr:"^Eso será <color=#54E717>\$(\d{1,3}(?:,\d{3})?)</color> por el (.+)\. ¿Tenemos un trato, socio?$"=$2 kerül <color=#54E717>$1</color>-ba. Alku, haver?
+sr:"^Eso será <color\=#54E717>\$(\d{1,3}(?:,\d{3})?)</color> por el (.+)\. ¿Tenemos un trato, socio?$"=$2 kerül <color\=#54E717>$1</color>-ba. Alku, haver?
 Gracias, socio.=Köszönöm, partner.
 Lárgate=Takarodj
 ¿Qué tipo de cosas vendes?=Milyen dolgokat árulsz?
@@ -1361,7 +1362,7 @@ Botanist (planting, plant maintenance, harvesting)=Botanikus (ültet, gondoz, be
 Handler (packaging, moving items)=Csomagoló (csomagol, tárgyakat mozgat)
 Chemist (chemistry station, lab oven, cauldron, mixing station)=Vegyész (kémiai állomás, labor sütő, üst, keverő állomás)
 Where you do want them? Keep in mind you'll have to provide a bed for this employee.=Hova szeretnéd őket? Ne feledd, biztosítanod kell egy ágyat ennek az alkalmazottnak.
-sr:"^That'll be a <color=#54E717>\$(\d{1,3}(?:,\\d{3})?)</color> signing free, and the employee's daily wage will be <color=#54E717>\$(\d{1,3}(?:,\\d{3})*)</color>\\.$"=Költsége <color=#54E717>$1</color> a felvétel, plusz napi <color=#54E717>$2</color> a munka.
+sr:"^That'll be a <color\=#54E717>\$(\d{1,3}(?:,\\d{3})?)</color> signing free, and the employee's daily wage will be <color\=#54E717>\$(\d{1,3}(?:,\\d{3})*)</color>\\.$"=Költsége <color\=#54E717>$1</color> a felvétel, plusz napi <color\=#54E717>$2</color> a munka.
 Cheers. I'll send your new employee over to your property now. I'm also giving you a clipboard, which you can use to manage your employees and equipment.=Rendben. Küldöm az új alkalmazottat hozzád. Adok egy mappát is, amivel kezelheted a személyzetedet és a felszereléseidet.
 Cheers. I'll send your new employee over to your property now.=Rendben van. Az új alkalmazott már úton van hozzád.
 r:EMPLOYEE LIMIT REACHED (.)/(.)=Alkalmazotti korlát elérve $1/$2
@@ -1414,8 +1415,8 @@ Open briefcase=Aktatáska kinyitása
 Briefcase=Aktatáska
 r:"^Assigned to (.+)$"=Hozzárendelve $1-hez
 r:"^(.+)'s Briefcase$"=$1 aktatáskái
-sr:^(.+) will draw his daily wage of <color=#54E717>\\$(\\d{1,3}(?:,\\d{3})*)</color> from this briefcase.$=$1 napidíját <color=#54E717>$2</color> ebből az aktatáskából veszi fel.
-sr:^(.+)$ will draw her daily wage of <color=#54E717>\$(\d{1,3}(?:,\\d{3})*)</color> from this briefcase.=$1 napidíjáát <color=#54E717>$2</color> ebből az aktatáskából veszi fel.
+sr:^(.+) will draw his daily wage of <color\=#54E717>\\$(\\d{1,3}(?:,\\d{3})*)</color> from this briefcase.$=$1 napidíját <color\=#54E717>$2</color> ebből az aktatáskából veszi fel.
+sr:^(.+)$ will draw her daily wage of <color\=#54E717>\$(\d{1,3}(?:,\\d{3})*)</color> from this briefcase.=$1 napidíjáát <color\=#54E717>$2</color> ebből az aktatáskából veszi fel.
 Any=Akármi
 ^Harvested product will be automatically moved to the destination by the assigned botanist=^A betakarított terméket az általam megbízott botanikus automatikusan átszállítja
 Additive 3=Adalékanyag 3
@@ -1862,9 +1863,9 @@ Employee of \nthe month=Hónap dolgozója
 TOWN SQUARE=VÁROSI TÉR
 Businesses for sale=Eladó vállalkozások
 Kyle=Kyle
-Choose Color=Válassz színt
+Choose color\=Válassz színt
 H=H
-Color=Szín
+color\=Szín
 Online balance only=Csak online egyenleg
 BETTER LUCK NEXT TIME...=Legközelebb több szerencsét...
 Exit Vehicle=Jármű elhagyása
@@ -1907,9 +1908,9 @@ You=Te
 What will the next card be?=Mi lesz a következő kártya?
 Blackjack=Blackjack
 Eyes=Szemek
-Schedule I will be releasing in <color=#5DD642>March 2025.</color> \n\nIf you've enjoyed this demo, please consider wishlisting the <color=#000000>\n<size=0>.</size>\n\n<color=#5DD642>Full Game Features</color>\n=Ütemterv I <color=#5DD642>2025. márciusában jelenik meg.</color>\n\nHa tetszett ez a demo, vedd fontolóra, hogy felteszed a kívánságlistádra a játékot.\n\n<color=#5DD642>Teljes Játék Funkciók</color>\n
+Schedule I will be releasing in <color\=#5DD642>March 2025.</color> \n\nIf you've enjoyed this demo, please consider wishlisting the <color\=#000000>\n<size=0>.</size>\n\n<color\=#5DD642>Full Game Features</color>\n=Ütemterv I <color\=#5DD642>2025. márciusában jelenik meg.</color>\n\nHa tetszett ez a demo, vedd fontolóra, hogy felteszed a kívánságlistádra a játékot.\n\n<color\=#5DD642>Teljes Játék Funkciók</color>\n
 Feet=Lábak
-Confirm (<color=#54E717>$100</color>)=Megerősítés (<color=#54E717>$100</color>)
+Confirm (<color\=#54E717>$100</color>)=Megerősítés (<color\=#54E717>$100</color>)
 Hands=Kezek
 Move Camera=Kamera mozgatása
 Ride the Bus=Buszra szállni
@@ -2045,7 +2046,7 @@ Bag trash=Szemetet zacskózni
 Hi boss, what do you need?=Szia főnök, helyzet?
 I need to trade some items=Adnék/elvennék valamit
 How do I assign customers to you?=Hogyan rendelhetem hozzád az ügyfeleket?
-Place <color=#7FFD63>packaged product</color> here and the dealer will sell it to assigned customers=Helyezz el itt <color=#7FFD63>csomagolt terméket</color>, és a díler eladja a hozzárendelt ügyfeleknek
+Place <color\=#7FFD63>packaged product</color> here and the dealer will sell it to assigned customers=Helyezz el itt <color\=#7FFD63>csomagolt terméket</color>, és a díler eladja a hozzárendelt ügyfeleknek
 Insufficient online balance. Visit an ATM to deposit cash.=Nincs elegendő online egyenleg. Menj egy ATM-hez pénzt befizetni.
 Request Dead Drop=Csomag kérése
 Select items to order from Albert=Rendelj termékeket Alberttől
@@ -2068,7 +2069,7 @@ VEHICLE MUST BE PARKED INSIDE THE SHOP=A JÁRMŰNEK AZ ÜZLETHELYISÉGBEN KELL �
 Hey there, what can I do for you?=Szia, miben segíthetek?
 That's great to hear. Which property are you interested in?=Nagyszerű hír. Melyik ingatlan érdekli?
 Great idea! Which business are you interested in?=Remek ötlet! Melyik eszköztavacska van érdekelődés szemben?
-10K in earnings - not bad at all! Soon you'll have the capital needed to start manufacturing <color=#7FFD63>meth</color>. But first, you're gonna need to purchase some equipment.=10K kereset – nem rossz! Hamarosan megszerezheted a szükséges tőkét a <color=#7FFD63>Meth</color> gyártásához. De először szerezz néhány felszerelést.
+10K in earnings - not bad at all! Soon you'll have the capital needed to start manufacturing <color\=#7FFD63>meth</color>. But first, you're gonna need to purchase some equipment.=10K kereset – nem rossz! Hamarosan megszerezheted a szükséges tőkét a <color\=#7FFD63>Meth</color> gyártásához. De először szerezz néhány felszerelést.
 Gain access to the warehouse=szerezz hozzáférést a raktárhoz
 Can I come in?=Beléphetek?
 Who the hell are you? Get lost.=Ki a fene vagy te? Tünés.
@@ -2104,7 +2105,7 @@ Benji is out dealing=Benji most árusít
 I need to collect the earnings=A keresetet be kell gyűjtenem
 Benji Coleman's Inventory=Benji Coleman's Készlet
 
-Place <color=#4CB0FF>packaged product</color> here and the dealer will sell it to assigned customers=Helyezd el itt a <color=#4CB0FF>csomagolt árut</color>, és a díler majd eladja a hozzá rendelt vevőknek
+Place <color\=#4CB0FF>packaged product</color> here and the dealer will sell it to assigned customers=Helyezd el itt a <color\=#4CB0FF>csomagolt árut</color>, és a díler majd eladja a hozzá rendelt vevőknek
 So you'd like to purchase bungalow? Payments are made from your online balance.=Bungalót szeretnél vásárolni? A fizetés az online egyenlegedből történik.
 Actually, nevermind=Tulajdonképpen, inkább nem
 Outstanding, the property has been transferred to your name.=Remek, az ingatlan átváltott a nevedre.
@@ -2143,7 +2144,7 @@ The drop is ready. You can find it at the skate park=A csomag készen áll. Az �
 Mixing in progress...=Keverés folyamatban...
 r:(\d+) mins remaining=$1 perc maradt
 r:When you're ready please deposit (.*) into my stash box - your debt is still unpaid.=Amikor készen állsz, kérlek tedd az (.*) összeget a rejtekhelyemre - még nem fizetted ki a tartozásodat.
-r:"I'm still currently waiting on a payment of <color=#46CB4F>\$(\d{1,3}(?:,\d{3})*)</color>. Please deposit it into my stash box when you've got a chance."=Még várok egy <color=#46CB4F>$1</color>. kérlek, helyezd el a rejtekhelyemben.
+r:"I'm still currently waiting on a payment of <color\=#46CB4F>\$(\d{1,3}(?:,\d{3})*)</color>. Please deposit it into my stash box when you've got a chance."=Még várok egy <color\=#46CB4F>$1</color>. kérlek, helyezd el a rejtekhelyemben.
 Arghh fine. What time?=Oké, rendben. Milyen időpontban?
 Hmm ok. What time?=Hmm, rendben. Milyen időpontban?
 
@@ -2156,7 +2157,7 @@ Albert Hoover's Stash=Albert Hoover Rejtekhelye
 r:Agreed. I'll be under the north end of the overpass for the next (\d+) hours.=Rendben. Az északi felüljáró alatt leszek $1 órára.
 r:You owe Albert Hoover <color\=#54E717>\$(\d{1,3}(?:,\d{3})*)</color>\. Insert cash and exit stash to pay off your debt=Tartozol Albert Hoovernak $<color\=#54E717>$1</color>. Helyezz el készpénzt és szállj ki a rejtekhelyről, hogy kiegyenlítsd az adósságodat.
 [Schedule Deal]:[Üzletütemezés]
-r:Reach the rank of <color=#54E717>\$(\d{1,3}(?:,\d{3})*)</color>\ to access this area.=Érd el a <color=#54E717>$1</color> rangot a terület hozzáféréséhez.
+r:Reach the rank of <color\=#54E717>\$(\d{1,3}(?:,\d{3})*)</color>\ to access this area.=Érd el a <color\=#54E717>$1</color> rangot a terület hozzáféréséhez.
 hmmmmm FINE. When?=hmmmm OK. Mikor?
 Here's the ranged weapons, let me know what tickles your fancy.=Itt vannak a távolsági fegyverek, szólj, melyiket szeretnéd.
 AVAILABLE AT ENFORCER I=ELÉRHETŐ AZ ENFORCER I-en
@@ -2229,7 +2230,7 @@ Thanks mate!=Köszönöm haver!
 Talk to Uncle Nelson's contact at the motel=Beszélj Onkel Nelson kapcsolatával a motelnél
 Stand still. You're being searched=Maradj nyugodt. Megvizsgálnak.
 BODY SEARCH IN PROGRESS=TESTÁTVIZSGÁLÁS FOLYAMATBAN
-sr:"The officer will search your inventory from <color=#62BDFF>left to right</color>.\n\n<color=#62BDFF>Click and hold</color> an item to <color=#62BDFF>conceal</color> it. You can only conceal one item at a time."=A rendőr átnézi a készletedet balról jobbra.\n\nKattints és tartsd nyomva egy tételre, hogy elrejtsd. Egyszerre csak egy tételt rejthetsz el.
+sr:"The officer will search your inventory from <color\=#62BDFF>left to right</color>.\n\n<color\=#62BDFF>Click and hold</color> an item to <color\=#62BDFF>conceal</color> it. You can only conceal one item at a time."=A rendőr átnézi a készletedet balról jobbra.\n\nKattints és tartsd nyomva egy tételre, hogy elrejtsd. Egyszerre csak egy tételt rejthetsz el.
 Officer=Rendőr
 This is our territory.\nDon’t interfere.\n\n-TB=Ez a mi területünk.\nNe avatkozz bele.\n\n-TB
 
@@ -2381,15 +2382,15 @@ Hey! I'm really in need right now. Please tell me you've got something I can buy
 \\\\\\ ---- Pénzmosás és üzleti menedzsment  ---- //////  
 Good afternoon=Jó napot
 Sure thing=Persze
-Your best bet for getting the tools you need is the <color=#7FFD63>warehouse.</color> It's the local spot where you can do business with... like-minded individuals. Weapons, specialized equipment, workers for hire - all the good stuff.=A legjobb esélyed, hogy megszerezd az eszközöket, amire szükséged van, a <color=#7FFD63>raktár</color>. Ez az a hely, ahol üzletelhetsz hasonló gondolkodású emberekkel... Fegyverek, speciális felszerelés, bérelhető munkások - minden jó dolog.
+Your best bet for getting the tools you need is the <color\=#7FFD63>warehouse.</color> It's the local spot where you can do business with... like-minded individuals. Weapons, specialized equipment, workers for hire - all the good stuff.=A legjobb esélyed, hogy megszerezd az eszközöket, amire szükséged van, a <color\=#7FFD63>raktár</color>. Ez az a hely, ahol üzletelhetsz hasonló gondolkodású emberekkel... Fegyverek, speciális felszerelés, bérelhető munkások - minden jó dolog.
 [Make an offer]=[Tégy ajánlatot]
 Follow me, I need to grab it first=Kövess, először el kell hoznom
 Get out of here=Takarodj innen
 Here's my selection of melee weapons, let me know what catches your eye.=Itt van a közelharci fegyvereim választéka - szólj, mi tetszik.
-If you want to convert more cash to online balance, you're gonna need to start <color=#7FFD63>laundering</color>.=Ha több készpénzt szeretnél online egyenlegre váltani, el kell kezdened <color=#7FFD63>mosni</color>.
+If you want to convert more cash to online balance, you're gonna need to start <color\=#7FFD63>laundering</color>.=Ha több készpénzt szeretnél online egyenlegre váltani, el kell kezdened <color\=#7FFD63>mosni</color>.
 If you want to convert more cash to online balance, you're gonna need to start laundering.=Ha több készpénzt szeretnél online egyenlegre váltani, mosni kell kezdened.
 Laundering involves using a legal business to conceal the origin of your less-than-legal cash.=A pénzmosás azt jelenti, hogy egy legális üzletet használsz, hogy eltitkold az illegálisnak tűnő pénzed eredetét.
-First thing's first, you're gonna need a business. Go check out <color=#7FFD63>Rays Realty</color>. You're probably not gonna be buying out the casino any time soon, but there should be a cheap business for sale.=Az első dolog, amire szükséged lesz, hogy egy üzlet. Nézd meg a <color=#7FFD63>Rays Realty</color>-t. Valószínűleg nem fogod megvenni a kaszinót egyhamar, de kellene lennie egy olcsó eladó üzletnek.
+First thing's first, you're gonna need a business. Go check out <color\=#7FFD63>Rays Realty</color>. You're probably not gonna be buying out the casino any time soon, but there should be a cheap business for sale.=Az első dolog, amire szükséged lesz, hogy egy üzlet. Nézd meg a <color\=#7FFD63>Rays Realty</color>-t. Valószínűleg nem fogod megvenni a kaszinót egyhamar, de kellene lennie egy olcsó eladó üzletnek.
 First thing's first, you're gonna need a business. Go check out Rays Realty. You're probably not gonna be buying out the casino any time soon, but there should be a cheap business for sale.=Az első dolog, amire szükséged lesz, hogy egy üzlet. Nézd meg a Rays Realty-t. Valószínűleg nem fogod megvásárolni a kaszinót hamarosan, de valami olcsó eladó üzletnek lennie kell.
 Purchase a business at Ray's Realty=Vásárolj egy üzleti Ray's Realty-nál
 Alright then. You know where to find me if you change your mind.=Rendben van. Tudod, hol találsz, ha meggondolod magad.
@@ -2541,7 +2542,7 @@ r:(.*), behind the grocery store=$1, Az élelmiszerbolt mögött
 
 \\\\\\ ---- Ajánlatok & érdeklődések  ---- //////
 
-r:"^I've received \$(\d{1,3}(?:,\d{3})*) cash from you\. Your debt is now \$(\d{1,3}(?:,\d{3})*)$"=Készpénz $<color=#54E717>$${1}</color> kaptam tőled. Az adósságod most $<color=#54E717>$${2}</color>
+r:"^I've received \$(\d{1,3}(?:,\d{3})*) cash from you\. Your debt is now \$(\d{1,3}(?:,\d{3})*)$"=Készpénz $<color\=#54E717>$${1}</color> kaptam tőled. Az adósságod most $<color\=#54E717>$${2}</color>
 sr:"I need a dead drop:\n(\d+x) (.+)$"=Szükségem van egy elrejtett csomagra:\n$1 $2
 
 sr:"Deal for (.+)"=Üzlet $1-nal
@@ -2756,17 +2757,17 @@ r:"^Kingpin ([IVX]+)$"=Főnök $1
 
 Unlocks at Street Rat II=Feloldás Utcai patkány II szinten
 
-r:"^Unlocks at <color=#2DB92D>Street Rat ([IVX]+)</color>$"=<size\=11>Feloldás <color=#2DB92D>Utcai patkány $1</color> szinten</size>
-r:"^Unlocks at <color=#2DB92D>Hoodlum ([IVX]+)</color>$"=<size=\10>Feloldás <color=#2DB92D>Gengszter $1</color> szinten</size>
-r:"^Unlocks at <color=#2DB92D>Peddler ([IVX]+)</color>$"=<size=\11>Feloldás <color=#2DB92D>Kisárus $1</color> szinten</size>
-r:"^Unlocks at <color=#2DB92D>Hustler ([IVX]+)</color>$"=<size=\9>Feloldás <color=#2DB92D>Szenvedélyes kereskedő $1</color> szinten</size>
-r:"^Unlocks at <color=#2DB92D>Enforcer ([IVX]+)</color>$"=<size=\9>Feloldás <color=#2DB92D>Behajtó $1</color> szinten</size>
-r:"^Unlocks at <color=#2DB92D>Bagman ([IVX]+)</color>$"=<size=\10>Feloldás <color=#2DB92D>Pénzbehajtó $1</color> szinten</size>
-r:"^Unlocks at <color=#2DB92D>Shot Caller([IVX]+)</color>$"=<size\=9>Feloldás <color=#2DB92D>Döntéshozó $1</color> szinten</size>
-r:"^Unlocks at <color=#2DB92D>Block Boss ([IVX]+)</color>$"=<size\=9>Feloldás <color=#2DB92D>Tömbfőnök $1</color> szinten</size>
-r:"^Unlocks at <color=#2DB92D>Underlord ([IVX]+)</color>$"=<size\=9>Feloldás <color=#2DB92D>Al-vezér $1</color> szinten</size>
-r:"^Unlocks at <color=#2DB92D>Baron ([IVX]+)</color>$"=<size\=9>Feloldás <color=#2DB92D>Báró $1</color> szinten</size>
-r:"^Unlocks at <color=#2DB92D>Kingpin ([IVX]+)</color>$"=<size\=9>Feloldás <color=#2DB92D>Főnök $1</color> szinten</size>
+r:"^Unlocks at <color\=#2DB92D>Street Rat ([IVX]+)</color>$"=<size\=11>Feloldás <color\=#2DB92D>Utcai patkány $1</color> szinten</size>
+r:"^Unlocks at <color\=#2DB92D>Hoodlum ([IVX]+)</color>$"=<size=\10>Feloldás <color\=#2DB92D>Gengszter $1</color> szinten</size>
+r:"^Unlocks at <color\=#2DB92D>Peddler ([IVX]+)</color>$"=<size=\11>Feloldás <color\=#2DB92D>Kisárus $1</color> szinten</size>
+r:"^Unlocks at <color\=#2DB92D>Hustler ([IVX]+)</color>$"=<size=\9>Feloldás <color\=#2DB92D>Szenvedélyes kereskedő $1</color> szinten</size>
+r:"^Unlocks at <color\=#2DB92D>Enforcer ([IVX]+)</color>$"=<size=\9>Feloldás <color\=#2DB92D>Behajtó $1</color> szinten</size>
+r:"^Unlocks at <color\=#2DB92D>Bagman ([IVX]+)</color>$"=<size=\10>Feloldás <color\=#2DB92D>Pénzbehajtó $1</color> szinten</size>
+r:"^Unlocks at <color\=#2DB92D>Shot Caller([IVX]+)</color>$"=<size\=9>Feloldás <color\=#2DB92D>Döntéshozó $1</color> szinten</size>
+r:"^Unlocks at <color\=#2DB92D>Block Boss ([IVX]+)</color>$"=<size\=9>Feloldás <color\=#2DB92D>Tömbfőnök $1</color> szinten</size>
+r:"^Unlocks at <color\=#2DB92D>Underlord ([IVX]+)</color>$"=<size\=9>Feloldás <color\=#2DB92D>Al-vezér $1</color> szinten</size>
+r:"^Unlocks at <color\=#2DB92D>Baron ([IVX]+)</color>$"=<size\=9>Feloldás <color\=#2DB92D>Báró $1</color> szinten</size>
+r:"^Unlocks at <color\=#2DB92D>Kingpin ([IVX]+)</color>$"=<size\=9>Feloldás <color\=#2DB92D>Főnök $1</color> szinten</size>
 
 r:"^Unlocks at Street Rat ([IVX]+)$"=Feloldás Utcai patkány $1 szinten
 r:"^Unlocks at Hoodlum ([IVX]+)$"=Feloldás Gengszter $1 szinten
@@ -2874,8 +2875,8 @@ sr:"The drop is ready. You can find it (.+)$"=A csomag kész. Megtalálod $1
 sr:"Your drop is ready. Grab it (.+)$"=A csomagod kész. Vedd fel $1
 sr:"Hey, that drop is ready (.+)$"=Hé, a csomagod kész $1  
 
-r:"^(.+) will draw his daily wage of <color=#54E717>\$(\d{1,3}(?:,\d{3})*)</color> from this briefcase.$"=$1 kiveszi napi bérét a <color=#54E717>$ $2</color> ebből a táskából.
-r:"^(.+) will draw her daily wage of <color=#54E717>\$(\d{1,3}(?:,\d{3})*)</color> from this briefcase.$"=$1 kiveszi napi bérét a <color=#54E717>$ $2</color> ebből a táskából.
+r:"^(.+) will draw his daily wage of <color\=#54E717>\$(\d{1,3}(?:,\d{3})*)</color> from this briefcase.$"=$1 kiveszi napi bérét a <color\=#54E717>$ $2</color> ebből a táskából.
+r:"^(.+) will draw her daily wage of <color\=#54E717>\$(\d{1,3}(?:,\d{3})*)</color> from this briefcase.$"=$1 kiveszi napi bérét a <color\=#54E717>$ $2</color> ebből a táskából.
 
 Howdy, buddy. You need somethin'?=Helló. Szükséged van valamire?
 I'd like to sell something=Szeretnék eladni valamit
@@ -2997,11 +2998,11 @@ You can now order <color\=#4CB0FF>pseudo</color> from Shirley. Pseudo is the mai
 
 There are two types of currency: and . Customers pay with cash, but most legal shops only accept card.=Kétféle valuta létezik: és . Az ügyfelek készpénzzel fizetnek, de a legtöbb legális bolt csak kártyát fogad el.
 
-cash=<color=#54E717>Készpénz</color>
-online balance=<color=#4CB0FF>Online-egyenleg</color>
+cash=<color\=#54E717>Készpénz</color>
+online balance=<color\=#4CB0FF>Online-egyenleg</color>
 ATM=<size\=16>Bankautomata</size>
-card=<color=#4CB0FF>Kártya</color>  
-online balance=<color=#4CB0FF>Online-egyenleg</color>
+card=<color\=#4CB0FF>Kártya</color>  
+online balance=<color\=#4CB0FF>Online-egyenleg</color>
 
 deposit=befizet  
 withdraw=kivenni  
@@ -3012,7 +3013,7 @@ Visit an ATM to deposit cash=Menj a bankautomatához, hogy készpénzt fizess be
 
 \\\\\\ ---- Tárgyak és Funkciók  ---- //////
 
-Looks like you've reached your <color\=#7FFD63>weekly deposit limit...</color> To avoid arousing suspicion, you can only deposit so much cash each week via ATMs.=Úgy tűnik, elérted a <color=#7FFD63>heti befizetési limitet...</color> Hogy ne kelts gyanút, csak meghatározott mennyiségű készpénzt tudsz minden héten a bankautomatákba befizetni.
+Looks like you've reached your <color\=#7FFD63>weekly deposit limit...</color> To avoid arousing suspicion, you can only deposit so much cash each week via ATMs.=Úgy tűnik, elérted a <color\=#7FFD63>heti befizetési limitet...</color> Hogy ne kelts gyanút, csak meghatározott mennyiségű készpénzt tudsz minden héten a bankautomatákba befizetni.
 Wood coffee table. Good for placing coffee on.=Fa dohányzóasztal. Kiváló kávé elhelyezésére.
 A small sized, 4-tier storage rack.=Kis méretű, 4 szintes tároló polc.
 1x1m metal table. You can place stuff on it.=1x1 m-es fémasztal. Csinálhatsz rá dolgokat.
@@ -3076,13 +3077,13 @@ The hell??=Mi a fene?
 I’ve heard you’re in some trouble. Best not to talk over your mobile phone. Go find a payphone.\n- U.N.=Hallottam, hogy bajban vagy. Jobb, ha nem mobilon beszélsz. Menj egy telefonfülkéhez. – U.N.
 Well shit... that's not ideal.=A francba... ez nem túl jó.
 There's a powerful cartel in town, the <color\=#4CB0FF>Benzies family.</color> I figured they'd eventually be a problem, but didn't think they'd find you this quickly...=A városban van egy erős kartell – a <color\=#4CB0FF>Benzies család.</color> Tudtam, hogy problémát okozhatnak, de nem gondoltam, hogy ilyen hamar megtalálnak...
-Looks like you're gonna need somewhere low key to stay for a while. Head over to the <color\=#4CB0FF>motel</color> and ask about getting a room.=Úgy tűnik, szükséged lesz egy kevésbé feltűnő helyre, ahol egy ideig megszállhatsz. Menj a <color=#4CB0FF>motelbe</color>, és kérdezz rá egy szobára.
+Looks like you're gonna need somewhere low key to stay for a while. Head over to the <color\=#4CB0FF>motel</color> and ask about getting a room.=Úgy tűnik, szükséged lesz egy kevésbé feltűnő helyre, ahol egy ideig megszállhatsz. Menj a <color\=#4CB0FF>motelbe</color>, és kérdezz rá egy szobára.
 After that, you'll be needing some new equipment. There's a hardware store just north-east of the motel. Grab a <color\=#4CB0FF>grow tent, soil</color>, and <color\=#4CB0FF>watering can.</color>=Azután szükséged lesz néhány új felszerelésre. Van egy barkácsbolt közvetlenül a motel északkeleti részén. Szerezz be egy <color\=#4CB0FF>növénytermesztő sátrat, földet</color> és <color\=#4CB0FF>öntözőkannát.</color>
 There is a <color\=#88CBFF>map</color> on your phone. Press <color\=#88CBFF>M</color> to quickly open it.=Van egy <color\=#88CBFF>térkép</color> a telefonodon. Nyomd meg a <color\=#88CBFF>M</color> gombot, hogy gyorsan megnyisd.
 You're in a new town with no cash and no product. Get in contact with a distant relative and ask for some help.=Új városban vagy, készpénz nélkül és áru nélkül. Vedd fel a kapcsolatot egy távoli rokonnal, és kérj segítséget.
 You can find it stashed near the <color\=#88CBFF>town hall fountain, in the canal,</color> and <color\=#88CBFF>behind the supermarket</color>. Go grab it, head back to the RV, and we'll go from there.=Megtalálod az elrejtett dolgot a <color\=#88CBFF>városháza szökőkútjánál, a csatornában,</color> és <color\=#88CBFF>a szupermarket mögött</color>. Szerezd meg, menj vissza a lakókocsihoz, és onnan folytatjuk.
 Welcome to Gas-Mart=Üdvözöljük a GM-nél
-Great. It'll be <color\=#54E717>$75</color> for the week, ok? = Nagyszerű. Heti díj <color=#54E717>75 dollár</color>, rendben?
+Great. It'll be <color\=#54E717>$75</color> for the week, ok? = Nagyszerű. Heti díj <color\=#54E717>75 dollár</color>, rendben?
 Thank you.=Köszönöm.
 "Mrs Ming"
 It is up the stairs behind my restaurant! Go around back and you'll see.=Fent van a lépcsőkön, az éttermem mögött! Menj hátra, és meglátod!
@@ -3212,7 +3213,7 @@ Alleyway behind grocery store=Utca a fűszerbolt mögött
 Alleyway behind laundromat=Az átadás a mosoda mögötti sikátorban van
 Your drop is located in the alleyway behind the grocery store=Az átadás a fűszerbolt mögötti sikátorban található
 I'm still currently waiting on a payment of <color\=#54E717>$180</color>. Please deposit it into my stash box when you've got a chance.=Még várok tőled <color\=#54E717>180 dollárt</color>. Tedd a rejtekhelyemre, amikor van rá lehetőséged.
-r:"I'm still currently waiting on a payment of <color=\#54E717>\$(\d{1,3}(?:,\d{3})*)</color>. Please deposit it into my stash box when you've got a chance."=Még várok tőled <color\=#54E717>$1</color>. Tedd a rejtekhelyemre, amikor lehetőséged van rá.
+r:"I'm still currently waiting on a payment of <color\=#54E717>\$(\d{1,3}(?:,\d{3})*)</color>. Please deposit it into my stash box when you've got a chance."=Még várok tőled <color\=#54E717>$1</color>. Tedd a rejtekhelyemre, amikor lehetőséged van rá.
 
 
 "Donna"
@@ -3472,18 +3473,18 @@ Place the expected products here.=Helyezd ide a várt termékeket
 Drag product + packaging into slots=<size=0>Húzd a terméket + csomagolást a helyekre</size>  
 
 at a payphone=egy nyilvános telefonfülkénél  
-(.+) is paying <color=#4CB0FF>=$1 fizet <color=#4CB0FF>  
+(.+) is paying <color\=#4CB0FF>=$1 fizet <color\=#4CB0FF>  
 Item Splitting=Tárgyak felosztása  
-(.+) is paying <color=#4CB0FF>\$(\d+)</color> for:=$1 fizet <color=#4CB0FF>\$2</color> ezért:  
-<color=#88CBFF>right-click</color>=<color=#88CBFF>jobb klikk</color>  
-<color=#88CBFF>scroll</color>=<color=#88CBFF>görgetés</color>
+(.+) is paying <color\=#4CB0FF>\$(\d+)</color> for:=$1 fizet <color\=#4CB0FF>\$2</color> ezért:  
+<color\=#88CBFF>right-click</color>=<color\=#88CBFF>jobb klikk</color>  
+<color\=#88CBFF>scroll</color>=<color\=#88CBFF>görgetés</color>
 
 \\\\\\ ---- Tutorials ---- //////
-To move a custom amount, <color=#62BDFF> right-click</color> drag an item and <color=#62BDFF>scroll</color> to change the amount.=Egy adott mennyiség mozgatásához <color=#62BDFF>jobb klikk</color>, húzd az elemet és <color=#62BDFF>görgess</color> a mennyiség megváltoztatásához.
-The officer will search your inventory from <color=#4CB0FF> left to right</color>. <color=#4CB0FF>Click and hold</color> an item to <color=#4CB0FF>conceal</color> it. You can only conceal one item at a time.=A rendőr átkutatja az eszköztáradat <color=#4CB0FF>balról jobbra</color>. <color=#4CB0FF>Kattints és tartsd lenyomva</color> az elemet, hogy <color=#4CB0FF>elrejtsd</color>. Egyszerre csak egy elemet rejthetsz el.
-To pick up an object, <color=#62BDFF>click and hold right mouse button</color> over it. =Tárgy felvételéhez <color=#62BDFF>tartsd lenyomva a jobb egérgombot</color>, miközben az egér fölötte van.
+To move a custom amount, <color\=#62BDFF> right-click</color> drag an item and <color\=#62BDFF>scroll</color> to change the amount.=Egy adott mennyiség mozgatásához <color\=#62BDFF>jobb klikk</color>, húzd az elemet és <color\=#62BDFF>görgess</color> a mennyiség megváltoztatásához.
+The officer will search your inventory from <color\=#4CB0FF> left to right</color>. <color\=#4CB0FF>Click and hold</color> an item to <color\=#4CB0FF>conceal</color> it. You can only conceal one item at a time.=A rendőr átkutatja az eszköztáradat <color\=#4CB0FF>balról jobbra</color>. <color\=#4CB0FF>Kattints és tartsd lenyomva</color> az elemet, hogy <color\=#4CB0FF>elrejtsd</color>. Egyszerre csak egy elemet rejthetsz el.
+To pick up an object, <color\=#62BDFF>click and hold right mouse button</color> over it. =Tárgy felvételéhez <color\=#62BDFF>tartsd lenyomva a jobb egérgombot</color>, miközben az egér fölötte van.
 
-Click and hold <color=#4CB0FF>right mouse button</color> over an object to pick it up.=Tartsd lenyomva a <color=#4CB0FF>jobb egérgombot</color> egy tárgy fölött, hogy felvedd.
+Click and hold <color\=#4CB0FF>right mouse button</color> over an object to pick it up.=Tartsd lenyomva a <color\=#4CB0FF>jobb egérgombot</color> egy tárgy fölött, hogy felvedd.
 
 
 
@@ -3717,7 +3718,7 @@ Albert Hoover": "albert_hoover",
 (Yellow Shitbox)=Sárga Shitbox
 (Yellow Veeper)=Sárga Veeper
 
-10K in earnings - not bad at all! Soon you'll have the capital needed to start manufacturing <color=#4CB0FF>meth</color>. But first, you're gonna need to purchase some equipment.=10K kereset – egyáltalán nem rossz! Hamarosan meglesz a tőkéd <color=#4CB0FF>meth</color> gyártásához. De először be kell szerezned néhány felszerelést.
+10K in earnings - not bad at all! Soon you'll have the capital needed to start manufacturing <color\=#4CB0FF>meth</color>. But first, you're gonna need to purchase some equipment.=10K kereset – egyáltalán nem rossz! Hamarosan meglesz a tőkéd <color\=#4CB0FF>meth</color> gyártásához. De először be kell szerezned néhány felszerelést.
 Looks like you've reached your weekly deposit limit... To avoid arousing suspicion, you can only deposit so much cash each week via ATMs.=Úgy tűnik, elérted a heti befizetési limitet... A gyanú elkerülése végett hetente csak ennyi készpénzt helyezhetsz el az ATM-ekben.
 Assign at least 3 customers to Benji=Oszd be legalább 3 ügyfelet Benjihez
 Oh very nice! You'll be hearing from me=Ó, nagyon szép! Hamarosan hallasz felőlem
@@ -3794,7 +3795,7 @@ Packaging... (Tier {0})=Csomagolás folyamatban... (Szint {0})
 1. Consume the package contents.=1. Fogyaszd el a csomag tartalmát.
 10 meth cooked=10 meth főzve
 100 meth cooked=100 meth főzve
-10K in earnings - not bad at all! Soon you'll have the capital needed to start manufacturing <color=#4CB0FF>meth</color>. But first, you're gonna need to purchase some equipment.=10K kereset – egyáltalán nem rossz! Hamarosan meglesz a tőkéd <color=#4CB0FF>meth</color> gyártásához. De először be kell szerezned néhány felszerelést.
+10K in earnings - not bad at all! Soon you'll have the capital needed to start manufacturing <color\=#4CB0FF>meth</color>. But first, you're gonna need to purchase some equipment.=10K kereset – egyáltalán nem rossz! Hamarosan meglesz a tőkéd <color\=#4CB0FF>meth</color> gyártásához. De először be kell szerezned néhány felszerelést.
 10K recrystallized.=10K újrakristályosítva.
 11. Learn about Special Recipes=11. Ismerd meg a speciális recepteket
 12 hour remaining=12 óra van hátra
@@ -4190,7 +4191,7 @@ Sell Price=Eladási ár
 Sell all remaining product and end endless mode?=Elad minden maradék terméket és befejezi a végtelen módot?
 Selling becomes automatic at Tier 5.=Az eladás automatikussá válik az 5. szinttől.
 Sending feedback...=Visszajelzés küldése folyamatban...
-Set color=Szín beállítása
+Set color\=Szín beállítása
 Set a price per unit for your product.=Állítson be egységárat a termékéhez.
 Share Score=Pongyáts megosztása
 Share your money with other cartel members to help them out.=Oszd meg a pénzedet más kartelltagokkal, hogy segíts rajtuk.
