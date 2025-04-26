@@ -1837,7 +1837,7 @@ Offer Deal=Ajánlat
 Place product here=Helyezd ide a terméket
 Pull Handle=Fogd meg a kart
 Save game=Játék mentése
-BODY SEARCH=Test átvizsgálása
+BODY SEARCH=Ruházat átvizsgálása
 Officer=Rendőr
 Police curfew starting soon=Rendőrségi kijárási tilalom kezdődik hamarosan
 Long-Life Soil=<size\=11>tartós életű föld</size>
@@ -1968,6 +1968,8 @@ TV=TV
 \\\\\\ ---- Játékmenet és felhasználói felület elemei (általános)  ---- //////  
 Display Cabinet=Vitrin
 Trash Can=Szemetes
+Toilet (Pre-owned)=WC (Használt)
+A ceramic toilet for disposing of waste matter.=Egy kerámia WC a hulladékanyag elhelyezésére.
 Hounddog=Hounddog
 Veeper=Veeper
 Cheetah=Gepárd
@@ -2942,6 +2944,9 @@ Gold Watch=Arany óra
 Silver Chain=Ezüstlánc
 Gold Chain=Aranylánc
 Gold Bar=Aranyrúd
+Wall-Mounted Shelf=Fali polc
+Antique Wall Lamp=Antik fali lámpa
+Modern Wall Lamp=Modern fali lámpa
 Artwork (Beach)=Műalkotás (Tengerpart)
 Artwork (Menu)=Műalkotás (Menü)
 Artwork (Offer)=Műalkotás (Ajánlat)
