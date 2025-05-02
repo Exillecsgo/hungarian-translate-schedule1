@@ -1751,7 +1751,7 @@ I'd like to buy a skateboard=Szeretnék egy gördeszkát venni
 Can I interest you in a free sample?=Érdekel egy ingyenes minta?
 Wicked sick my man, which board are you looking for?=Nagyon állat, tesó, melyik deszkára pályázol?
 INSUFFICIENT CASH=NINCS ELÉG KÉSZPÉNZ
-INSUFFICIENT BALANCE=NEM ELÉG EGYENLEG
+INSUFFICIENT BALANCE=Nincs elég egyenleged.
 Use ATM=Használj ATM-et
 CANCEL=MEGSZAKÍTÁS
 r:DEPOSIT (.+)$=BEFIZETÉS $1
@@ -3590,6 +3590,8 @@ sr:Okay. I'll be next to the mayor's house for the next (.*) hours.=Rendben. A k
 The Docks Warehouse=A Dokk raktára
 The Barn=A Pajta
 The Bungalow=A Bungaló
+Storage unit=Raktáregység
+The storage unit at Stash & Dash=Raktáregység a Stash & Dash-ben
 
 \\\\\\ ---- NPCS  ---- //////  
 
