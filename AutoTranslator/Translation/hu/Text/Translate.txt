@@ -844,6 +844,8 @@ Use the management clipboard to assign the packager to a bed=Használd a menedzs
 Chemists=Vegyészek
 Assign a station to the chemist=Oszd ki egy állomást a vegyésznek.
 Place cash in the briefcase on the chemist’s bed=Helyezd el a készpénzt a vegyész ágyán lévő aktatáskába.
+Locker=Szekrény
+Big metal locker, can be assigned to employees or used for general storage=<size\=9>Nagy fémszekrény, hozzárendelhető alkalmazottakhoz, vagy általános tárolásra használható.</size>
 
 Money Management=Pénzkezelés
 Deposit cash at an ATM=Helyezd el a készpénzt egy ATM-ben.
@@ -1386,12 +1388,19 @@ Use the management clipboard to assign the botanist to a bed=Használd a mappát
 Assign a supplies source to the botanist=Rendelj egy anyagforrást a botanikushoz.
 Assign a pot or grow tent to the botanist=Ossz ki egy edény vagy termesztősátrat a botanikusnak.
 Set the pot/grow tent destination=Állítsd be a edény/sátor célpontját
-
+Use the management clipboard to assign the botanist to a locker=Használd a kezelői vágólapot, hogy a botanikust egy szekrényhez rendeld.
+• Use the management clipboard to assign the botanist to a locker=• Használd a kezelői vágólapot, hogy a botanikust egy szekrényhez rendeld.
 Learn how to manage chemists.=Tanuld meg, hogyan kell a vegyészeket kezelni.
 Use the management clipboard to assign the chemist to a bed=Használd a mappát, hogy a vegyész számára ágyat osszd ki.
+Use the management clipboard to assign the chemist to a locker=Használd a kezelői vágólapot, hogy a vegyészt egy szekrényhez rendeld.
+• Use the management clipboard to assign the chemist to a locker=• Használd a kezelői vágólapot, hogy a vegyészt egy szekrényhez rendeld.
 Learn how to manage cleaners.=Tanuld meg, hogyan kell a takarítókat kezelni.
 Use the management clipboard to assign the cleaner to a bed=Használd a mappát, hogy a takarító számára ágyat osszd ki.
 Assign a trash can to the cleaner=Ossz egy szemetest a takarítónak
+Use the management clipboard to assign the cleaner to a locker=Használd a kezelői vágólapot, hogy a takarítót egy szekrényhez rendeld.
+• Use the management clipboard to assign the cleaner to a locker=• Használd a kezelői vágólapot, hogy a takarítót egy szekrényhez rendeld.
+Use the management clipboard to assign the packager to a locker=Használd a kezelői vágólapot, hogy a csomagolót egy szekrényhez rendeld.
+• Use the management clipboard to assign the packager to a locker=• Használd a kezelői vágólapot, hogy a csomagolót egy szekrényhez rendeld.
 
 Learn how to manage packagers.=Tanuld meg, hogyan kell a csomagolókat kezelni.
 Use the management clipboard to assign the packager to a bed=Használd a mappát, hogy a csomagoló számára ágyat osszd ki.
